@@ -198,7 +198,7 @@ after_bundle do
 
   # Rubocop
   ########################################
-  run 'curl -L https://raw.githubusercontent.com/TheFrenchOak/rails-templates/main/.rubocop.yml > .rubocop.yml'
+  run 'curl -L https://raw.githubusercontent.com/TheFrenchOak/rails-templates/main/.rubocop.yml?token=AIITLR3LFVQKMBT7QIMEXYDBJYRHU > .rubocop.yml'
 
   # Git
   ########################################
