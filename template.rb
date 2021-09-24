@@ -107,11 +107,11 @@ after_bundle do
   ########################################
   rails_command 'db:drop db:create db:migrate'
   generate('simple_form:install', '--bootstrap')
-  generate(:controller, 'pages', 'home', '--skip-routes', '--no-test-framework')
+  # generate(:controller, 'pages', 'home', '--skip-routes', '--no-test-framework')
 
   # Routes
   ########################################
-  route "root to: 'pages#home'"
+  # route "root to: 'pages#home'"
 
   # Git ignore
   ########################################
@@ -163,7 +163,7 @@ after_bundle do
   run 'yarn add popper.js jquery bootstrap@4.6'
   append_file 'app/javascript/packs/application.js', <<~JS
     // ----------------------------------------------------
-    // Note(lewagon): ABOVE IS RAILS DEFAULT CONFIGURATION
+    // Note: ABOVE IS RAILS DEFAULT CONFIGURATION
     // WRITE YOUR OWN JS STARTING FROM HERE 👇
     // ----------------------------------------------------
     // External imports
