@@ -8,6 +8,6 @@ Rails app ready to be deployed on Heroku with Bootstrap, Simple form, debugging 
 rails new \
   --database postgresql \
   --webpack \
-  -m https://raw.githubusercontent.com/TheFrenchOak/rails-templates/main/template.rb?token=AIITLR4JGOMFQJEQ7AWNCF3BJYRI2 \
+  -m https://raw.githubusercontent.com/TheFrenchOak/rails-templates/main/template.rb \
   CHANGE_THIS_TO_YOUR_RAILS_APP_NAME
   ```
